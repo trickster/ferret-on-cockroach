@@ -1,7 +1,7 @@
 version: "3"
 services:
   ferretdb:
-    image: ghcr.io/ferretdb/ferretdb:latest
+    image: ghcr.io/ferretdb/all-in-one:main
     hostname: 'ferretdb'
     container_name: 'ferretdb'
     restart: 'on-failure'
